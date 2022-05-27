@@ -1,6 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
-import datamanipulation as dm 
+import sys
+sys.path.append('../../catchall')
+import datahelp as dm 
 
 def autocorr(x, lags):
     '''fft-based method'''
